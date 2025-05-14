@@ -26,6 +26,9 @@ const eslintConfig = [
       "simple-import-sort/exports": "error",
     },
   },
+  {
+    ignores: ["src/generated/**/*"],
+  },
 ];
 
 export default eslintConfig;
